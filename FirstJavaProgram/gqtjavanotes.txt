@@ -1,0 +1,16 @@
+class Calculator{
+int a,b;  //instance variables
+static int c,d;  //static variables
+void add(){
+int e,f; //local variables
+}
+}
+public class program1{
+public static void main(String args[]) {
+Calculator c = new Calculator();
+System.out.println(c.a);
+System.out.println(c.d);
+}
+}
+
+
